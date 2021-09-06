@@ -10,3 +10,5 @@ Vi udvider programmet løbende
 - fori loop  
 - java-klasser
 - objekter
+- lister/arrays
+- finals
