@@ -12,8 +12,10 @@ Vi udvider programmet løbende
 - objekter
 - lister/arrays
 - finals    
+- funktioner
+- math.pow
   
-  
-Billede af programmet som bliver kørt, der er blevet valgt at terningen skal slår 2 gange.
-![image](https://user-images.githubusercontent.com/89967398/132202869-7f9954e0-2319-4f36-8787-9988cb23932a.png)
+Billede af programmet som bliver kørt, der er blevet valgt at terningen skal have 4 sider og slår 2 gange.
+![image](https://user-images.githubusercontent.com/89967398/132206820-50665977-3918-4e1b-8b23-cc844b36cf14.png)
+
 
