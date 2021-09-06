@@ -11,4 +11,9 @@ Vi udvider programmet løbende
 - java-klasser
 - objekter
 - lister/arrays
-- finals
+- finals    
+  
+  
+Billede af programmet som bliver kørt, der er blevet valgt at terningen skal slår 2 gange.
+![image](https://user-images.githubusercontent.com/89967398/132202869-7f9954e0-2319-4f36-8787-9988cb23932a.png)
+
