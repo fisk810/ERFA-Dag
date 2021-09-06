@@ -8,3 +8,5 @@ Vi udvider programmet løbende
 - sout  
 - math.random  
 - fori loop  
+- java-klasser
+- objekter
