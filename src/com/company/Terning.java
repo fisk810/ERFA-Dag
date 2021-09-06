@@ -1,9 +1,8 @@
 package com.company;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Queue;
+
 
 public class Terning {
     private final int ANTALSIDER = 5;
@@ -17,8 +16,8 @@ public class Terning {
     }
 
     public void terningKast(){
-            System.out.println("---------------------------\n");
-            System.out.println("du slog:\n");
+            System.out.println("---------------------------");
+            System.out.println("du slog:");
             valgtSide = ((int) (Math.ceil(Math.random() * ANTALSIDER)) -1);
             nuvaerendeVaerdi = sideVaerdier.get(valgtSide);
             System.out.print(nuvaerendeVaerdi + "\n");

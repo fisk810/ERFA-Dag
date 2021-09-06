@@ -6,13 +6,13 @@ public class Main {
         Terning terning = new Terning();
         Scanner tif = new Scanner(System.in);
         int sum = 0;
-        System.out.println("vælg hvor mange gange du vil kaste terningen:\n");
+        System.out.println("vælg hvor mange gange du vil kaste terningen:");
         int antalKast = tif.nextInt();
 
         for (int i = 0; i < antalKast ; i++) {
             terning.terningKast();
             sum += terning.getNuvaerendeVaerdi();
         }
-        System.out.println("Summen af alle dine kast er:\n" + sum);
+        System.out.println("---------------------------\n"+"Summen af alle dine kast er:\n" + sum);
     }
 }
