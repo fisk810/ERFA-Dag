@@ -8,10 +8,12 @@ public class Main {
         System.out.println("Skriv antal gange du vil rulle en terning\n");
         int numberOfRolls = tif.nextInt();
         for (int i = 0; i < numberOfRolls ; i++) {
+            System.out.println("---------------------------\n");
+            System.out.println((i+1)+". gang du kaster terningen slår du:\n" );
             rnumber =(int)(Math.ceil(Math.random() * 6));
             System.out.print(rnumber + "\n");
             if (rnumber == 6){
-                System.out.print("Fedt, du slog en 6'er");
+                System.out.print("Fedt, du slog en 6'er\n");
             }
             rnumber = 0;
 
