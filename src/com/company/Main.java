@@ -7,6 +7,7 @@ public class Main {
         int rnumber = 0;
         int sum = 0;
         while(true) {
+
             System.out.println("Skriv antal gange du vil rulle en terning\n");
             int numberOfRolls = tif.nextInt();
 
