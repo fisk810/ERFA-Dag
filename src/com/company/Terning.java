@@ -1,14 +1,23 @@
 package com.company;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 
 
 public class Terning {
-    private final int ANTALSIDER = 5;
-    List<Integer> sideVaerdier= Arrays.asList(7,9,13,18,21);
+    private int sideAntal = 0;
+    public List<Integer> sideVaerdier= new ArrayList<>();
     private int nuvaerendeVaerdi = 0;
     private int valgtSide = 0;
+
+    //funktion til at lave sider på terningen
+    public void givSider(int antalSider){
+        for (int i = 0; i <antalSider ; i++) {
+            sideVaerdier.add((int) Math.pow(2.0,i));
+        }
+        sideAntal = sideVaerdier.size();
+    }
+
 
 
     public int getNuvaerendeVaerdi() {
@@ -18,7 +27,7 @@ public class Terning {
     public void terningKast(){
             System.out.println("---------------------------");
             System.out.println("du slog:");
-            valgtSide = ((int) (Math.ceil(Math.random() * ANTALSIDER)) -1);
+            valgtSide = ((int) (Math.ceil(Math.random() * sideAntal)) -1);
             nuvaerendeVaerdi = sideVaerdier.get(valgtSide);
             System.out.print(nuvaerendeVaerdi + "\n");
 
