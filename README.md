@@ -6,4 +6,5 @@ Vi udvider programmet løbende
 - if-statements  
 - scanner input
 - sout  
-- math.random
+- math.random  
+- fori loop  
